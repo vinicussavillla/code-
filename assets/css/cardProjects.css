@@ -1,0 +1,103 @@
+
+
+.heading {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+span{
+  color: #4b8ab1;
+}
+
+.cart:hover{
+  box-shadow: 0 .1rem 2rem #cbe2f0;
+  transform: scale(1.02);
+}
+
+
+.icon{
+  font-size: 7rem;
+  color: #4b8ab1;
+}
+
+.titleservices{
+  font-size: 1.5rem;
+  font-weight: 503;
+
+}
+
+.titleservices:hover{
+  color: #4b8ab1;
+  transition: .7s ease;
+
+}
+.textservices{
+  font-size:1rem;
+  margin:1rem 0 3rem;
+  font-weight: 450;
+
+}
+
+.portfolio-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+gap: 2.5rem;
+}
+
+
+.portfolio-container .portfolio-boxs {
+ position: relative;
+ display: flex;
+ border-radius: 2rem;
+ box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+ overflow: hidden;
+}
+.portfolio-boxs img{
+  width: 100%;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-wrapper > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+  grid-column: span 2;
+}
+.grid-wrapper .tall {
+  grid-row: span 2;
+}
+.grid-wrapper .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+

@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+
+
+
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin: 0;
+    align-items: left;
+    justify-content: center;
+    
+}
+
+ li {
+    list-style: none;   
+}
+
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-left, minmax(100, 100));
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+     
+}
+  
+.countdown li {
+    font-family: 'Oswald', sans-serif;
+    padding: 1rem;
+    color: #4b8ab1;
+    background: rgb(47, 52, 54);
+    border-radius:  5px;
+    box-shadow: 0 1px 1px rgb(63, 151, 192);
+    text-align: center;
+    justify-content: center;
+}
+
+

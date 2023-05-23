@@ -6952,7 +6952,7 @@ img {
 }
 
 .info-horizontal .icon>i {
-    font-size: 2em;
+    font-size: 0.2em;
 }
 
 .info-horizontal .icon.icon-circle {
@@ -11270,7 +11270,7 @@ h2.card-title.anual{
     left: 50%;
     -webkit-transform: translateX(-50%);
     z-index: 9999;
-    margin-top: -40px;
+    margin-top: 2px;
 }
 #mouse-scroll span{
     display: block;

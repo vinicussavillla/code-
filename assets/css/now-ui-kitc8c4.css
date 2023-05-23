@@ -6968,7 +6968,7 @@ img {
 }
 
 .info-horizontal .icon>i {
-  font-size: 2em;
+  font-size: 0.2em;
 }
 
 .info-horizontal .icon.icon-circle {
@@ -10053,7 +10053,7 @@ img {
 }
 
 .contactus-1 .info .icon {
-  margin-top: 19px;
+  margin-top: -80px;
   color: #FFFFFF;
 }
 
@@ -11285,7 +11285,7 @@ color:#EF6E6E;
   left: 50%;
   -webkit-transform: translateX(-50%);
   z-index: 9999;
-  margin-top: -40px;
+  margin-top: 30px;
 }
 #mouse-scroll span{
   display: block;
